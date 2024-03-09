@@ -29,11 +29,7 @@ function bulMedyan(dizi1, dizi2) {
     const birlestirilmisDizi = [...dizi1, ...dizi2].sort((a, b) => a - b);
     const ortancaIndex = Math.floor(birlestirilmisDizi.length / 2);
     
-    if (birlestirilmisDizi.length % 2 === 0) {
-        return (birlestirilmisDizi[ortancaIndex - 1] + birlestirilmisDizi[ortancaIndex]) / 2;
-    } else {
-        return birlestirilmisDizi[ortancaIndex];
-    }
+    return birlestirilmisDizi.length % 2 === 0 ? (birlestirilmisDizi[ortancaIndex - 1] + birlestirilmisDizi[ortancaIndex]) / 2 : birlestirilmisDizi[ortancaIndex];
 }
 
 const dizi1 = [1, 2];
