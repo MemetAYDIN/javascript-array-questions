@@ -25,14 +25,11 @@ Bu kod bir toplama fonksiyonu oluşturur. Fonksiyon, iki farklı dizi a ve b'yi 
 Question 2;
 
 
-1. İlk olarak `bulMedyan` fonksiyonu tanımlanıyor ve `dizi1` ve `dizi2` isimli iki adet parametre alıyor.
-2. `birlestirilmisDizi` isimli bir değişken oluşturuluyor ve spread operatörü kullanılarak `dizi1` ve `dizi2` dizileri birleştiriliyor. Daha sonra bu birleştirilmiş dizi küçükten büyüğe doğru sıralanıyor.
-3. `ortancaIndex` isimli değişkene, birleştirilmiş dizinin uzunluğunun yarısının alınarak aşağıya yuvarlanmış değeri atanıyor.
-4. Eğer birleştirilmiş dizi uzunluğunun 2'ye bölümünden kalan 0 ise (yani çift sayıda elemana sahipse):
-   - Fonksiyon, `birlestirilmisDizi` dizisinin ortanca iki elemanının ortalamasını döndürüyor.
-5. Değilse (yani tek sayıda elemana sahipse):
-   - Fonksiyon, `birlestirilmisDizi` dizisinin ortanca elemanını döndürüyor.
-6. `dizi1` ve `dizi2` isimli iki dizi tanımlanıyor.
-7. "Output 2:" ifadesi ekrana yazdırılıyor.
-8. `bulMedyan` fonksiyonu `dizi1` ve `dizi2` dizilerini parametre olarak alarak çağrılıyor ve sonuç konsola yazdırılıyor.
+1. `bulMedyan` adında bir fonksiyon tanımlanmıştır. Bu fonksiyon, iki adet dizi alır (dizi1 ve dizi2).
+2. `birlestirilmisDizi` adında bir değişken oluşturulmuş ve `spread` operatörü kullanılarak `dizi1` ve `dizi2` dizilerinin elemanları birleştirilmiştir. Daha sonra bu birleştirilmiş dizi küçükten büyüğe doğru sıralanmıştır.
+3. `ortancaIndex` değişkenine, `birlestirilmisDizi` dizisinin uzunluğunun yarısının tam sayı bölümü atanmıştır.
+4. Fonksiyon içerisinde ternary operatörü kullanılarak, birleştirilmiş dizi eleman sayısının çift mi yoksa tek mi olduğu kontrol edilir. Eğer çiftse, ortadaki iki elemanın aritmetik ortalaması hesaplanarak döndürülür. Eğer tekse, ortanca eleman döndürülür.
+5. `dizi1` ve `dizi2` değişkenleri tanımlanmış ve her biri 2 eleman içeren bir dizi oluşturulmuştur.
+6. `console.log("Output 2:");` ile konsola "Output 2:" metni yazdırılmıştır.
+7. `bulMedyan` fonksiyonu çağrılarak, dizi1 ve dizi2 dizileri fonksiyona parametre olarak verilmiş ve fonksiyonun sonucu konsola yazdırılmıştır.
 
