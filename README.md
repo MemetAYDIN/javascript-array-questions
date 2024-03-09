@@ -30,6 +30,5 @@ Question 2;
 3. `ortancaIndex` değişkenine, `birlestirilmisDizi` dizisinin uzunluğunun yarısının tam sayı bölümü atanmıştır.
 4. Fonksiyon içerisinde ternary operatörü kullanılarak, birleştirilmiş dizi eleman sayısının çift mi yoksa tek mi olduğu kontrol edilir. Eğer çiftse, ortadaki iki elemanın aritmetik ortalaması hesaplanarak döndürülür. Eğer tekse, ortanca eleman döndürülür.
 5. `dizi1` ve `dizi2` değişkenleri tanımlanmış ve her biri 2 eleman içeren bir dizi oluşturulmuştur.
-6. `console.log("Output 2:");` ile konsola "Output 2:" metni yazdırılmıştır.
 7. `bulMedyan` fonksiyonu çağrılarak, dizi1 ve dizi2 dizileri fonksiyona parametre olarak verilmiş ve fonksiyonun sonucu konsola yazdırılmıştır.
 
